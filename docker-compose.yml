@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  landing-page:
+    build: ./app
+    image: 'concord/landing-page:latest'
+    ports:
+      - '8080:80'
+    volumes:
+      - './app/src/:/usr/local/apache2/htdocs/'

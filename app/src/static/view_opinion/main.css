@@ -1,0 +1,232 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+@media (max-width: 979px) {
+    body {
+        /* padding-top: 4.5rem; */
+        text-align: center;
+        font-family: 'Open Sans', sans-serif
+    }
+    .overlay-container{
+        position: relative;
+    }
+    .black-over{
+        position: absolute;
+        height: 5rem;
+        width: 100%;
+        background-color: black;
+    }
+    .pink-over-1{
+        position: absolute;
+        z-index: -10;
+        height: 5rem;
+        width: 100%;
+        bottom: 0px;
+        background-color: palevioletred; 
+        background-image: linear-gradient(to right, #ff5f58 , #3399ff);
+    }
+    .pink-over{
+        position: absolute;
+        height: 10rem;
+        width: 100%;
+        background-color: palevioletred; 
+        background-image: linear-gradient(to right, #ff5f58 , #3399ff);
+    }
+    .container-fluid{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .over-box{
+        position: absolute;
+        z-index: 2;
+    }
+    .navbar{
+        text-align: center;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar-brand{
+        margin-left: 25%;
+    }
+    .left-col {
+        display: none;
+    }
+    .pink-container-head{
+        font-size: 2.5rem;
+    }
+    .pink-container-top{
+        font-size: 1rem; 
+    }
+    .pink-container-body{
+        font-size: 1rem;
+    }
+    .pink-container-subhead{
+        font-size: 1.5rem;
+    }
+    .normal-container-head{
+        font-size: 2rem;;
+    }
+    .normal-container-body{
+        font-size: 1rem;
+    }
+    .bullet {
+        height: 2.5rem;
+        width: 2.5rem;
+        text-align: center;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 1rem;
+      }
+
+    .btn{
+        height: 3rem;
+        background-color: black; 
+        color: white; 
+        padding-left: 3rem; 
+        padding-right: 3rem; 
+        border-radius: 50px;
+        width: 20rem;
+    }
+    .card{
+        border-radius: 10px;
+        box-shadow: 2px 2px 1px lightgrey;
+    }
+
+}
+
+.right-on-large {
+    text-align: left;
+}
+
+@media (min-width: 979px){
+    body {
+        /* padding-top: 4.5rem; */
+        text-align: left;
+        font-family: 'Open Sans', sans-serif
+      }
+    .overlay-container{
+        position: relative;
+    }
+    .black-over{
+        position: absolute;
+        height: 5rem;
+        width: 100%;
+        background-color: black;
+    }
+    .pink-over-1{
+        position: absolute;
+        z-index: -10;
+        height: 5rem;
+        width: 100%;
+        bottom: 0px;
+        background-color: palevioletred; 
+        background-image: linear-gradient(to right, #ff5f58 , #3399ff);
+    }
+    .pink-over{
+        position: absolute;
+        height: 10rem;
+        width: 100%;
+        background-color: palevioletred; 
+        background-image: linear-gradient(to right, #ff5f58 , #3399ff);
+    }
+    .navbar{
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .pink-container-head{
+        font-size: 3.5rem;
+    }
+    .pink-container-top{
+        font-size: 1.5rem;
+    }
+    .pink-container-body{
+        font-size: 1.5rem;
+        padding-left: 6rem;
+    }
+    .pink-container-subhead{
+        font-size: 2rem;
+    }
+    .normal-container-head{
+        font-size: 3rem;
+    }
+    .normal-container-body{
+        font-size: 1.5rem;
+    }
+    .bullet {
+        height: 3.5rem;
+        width: 3.5rem;
+        text-align: center;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 1.5rem;
+      }
+    .btn{
+        height: 3rem;
+        background-color: black; 
+        color: white; 
+        padding-left: 3rem; 
+        padding-right: 3rem; 
+        border-radius: 50px;
+        width: 18rem;
+        box-shadow: 3px 3px 5px grey;
+    }
+    .card{
+        padding-top: 1.5rem;
+        padding-left: 1.5rem;
+        min-height: 35rem;
+        border-radius: 15px;
+        box-shadow: 3px 3px 2px lightgrey;
+    }
+    
+    .right-on-large {
+        text-align: right;
+    }
+}
+
+b {
+    font-weight: 700 !important;
+}
+
+.px-lg-5 {
+    padding: 0 150px 0 150px !important;
+}
+/*@font-face{
+    font-family: 'Apple Myungjo';
+    src: url(applemyungjo-regular.ttf);
+
+    font-family: 'Open Sans Regular';
+    src: url(font/OpenSans-Regular.ttf);
+
+    font-family: 'Open Sans Bold';
+    src: url(font/OpenSans-Bold.ttf);
+
+    font-family: 'Open Sans SemiBold';
+    src: url(font/OpenSans-SemiBold.ttf)
+}
+.font-change{
+    font-family: 'Apple Myungjo';
+}
+.font-semibold{
+    font-family: 'Open Sans', sans-serif
+}
+.font-bold{
+    font-family: 'Open Sans', sans-serif
+}*/
