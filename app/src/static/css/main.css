@@ -389,6 +389,10 @@ nav {
     margin-left: 52px;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 /* Burger Menu */
 
 
@@ -426,7 +430,7 @@ nav {
     }
 
     .video-heading {
-        font-size: 32px;
+        font-size: 30px;
         line-height: 38px;
     }
 
@@ -559,6 +563,12 @@ nav {
         margin-left: 3px;
     }
 
+    .manifesto-text {
+        text-align: left;
+        margin-right: 16px;
+        margin-left: 23px;
+    }
+
     .menu-btn {
         position: relative;
         display: flex;
@@ -583,7 +593,7 @@ nav {
         width: 40px;
         height: 5px;
         background: #7631A8;
-        border-radius: 5px;
+        border-radius: 15px;
         transition: all .5s ease-in-out;
     }
     
@@ -616,7 +626,7 @@ nav {
         display: none;
         transition: 0.5s;
         position: sticky;
-        top: 97px;
+        top: 74px;
     }
 
     .mobile-menu.active {
@@ -636,5 +646,20 @@ nav {
 
     .mobile-list li a {
         color: #000;
+    }
+
+    .navbar {
+        height: 80px;
+    }
+
+    .concord-logo-text {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    .navbar-brand img {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
     }
 }
