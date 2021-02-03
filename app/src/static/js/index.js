@@ -21,6 +21,17 @@
      }
  })
 
+// Read More section 
+const readMoreBtn = document.querySelector(".read-more");
+const hideSection = document.querySelector(".hide-section");
+const articleHead = document.querySelector(".article-h2");
+
+readMoreBtn.addEventListener('click', () => {
+  hideSection.style.display = "block";
+  readMoreBtn.style.display = "none";
+  articleHead.innerHTML = "Our mission: Preventing news deserts";
+})
+
 $(function () {
   $('a[href*="#"]:not([href="#"])').click(function () {
     if (

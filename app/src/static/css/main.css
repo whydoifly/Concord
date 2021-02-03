@@ -357,6 +357,7 @@ nav {
 
 .read-more:hover {
     color: #694c7c;
+    cursor: pointer;
 }
 
 .manifesto-section {
@@ -390,6 +391,10 @@ nav {
 }
 
 .mobile-menu {
+    display: none;
+}
+
+.hide-section {
     display: none;
 }
 
