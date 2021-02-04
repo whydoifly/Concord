@@ -72,6 +72,9 @@ nav {
 
 .navbar-brand img {
     margin-left: 97px;
+	display: inline-block;
+    margin-top: -5px;
+    white-space: nowrap;
 }
 
 .concord-logo-text {
@@ -108,6 +111,8 @@ nav {
 }
 
 .get-early-access {
+    display: flex;
+    justify-content: center;
     margin-top: 44px;
 }
 
@@ -124,7 +129,7 @@ nav {
     background-color: #7631A8;
     color: #fff;
     padding: 14px 20px 14px 20px;
-    margin-left: -5px;
+    margin-left: -8px;
     border: 1px solid #7631A8;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -566,6 +571,7 @@ nav {
 
     .concord-logo-text {
         margin-left: 3px;
+		margin-bottom: 10px;
     }
 
     .manifesto-text {
