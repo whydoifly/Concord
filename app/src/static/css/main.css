@@ -255,6 +255,11 @@ nav {
     font-size: 18px;
 }
 
+.footer-block a:nth-child(2) {
+    color: #000;
+    text-decoration: none;
+}
+
 .footer-links {
     opacity: 0.84;
 }
