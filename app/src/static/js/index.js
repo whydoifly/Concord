@@ -1,14 +1,14 @@
 /**
  * Created by deepak on 20/11/16.
  */
-/*
+ 
 function check() {
   if (!document.getElementById("email").checkValidity()) {
     alert("Input is not valid!");
   } else {
     goToForms();
   }
-}*/
+}
 
 function goToForms() {
   document.location.href = "https://tushar700593.typeform.com/to/SzIAojTd";
